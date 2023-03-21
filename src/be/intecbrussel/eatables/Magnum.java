@@ -1,7 +1,42 @@
 package be.intecbrussel.eatables;
 
-public class Magnum{
+public class Magnum implements Eatable{
+
+    private MagnumType type;
+
+    public Magnum(){
+        this(MagnumType.MILKCHOCOLATE);
+    }
+
+    public Magnum(MagnumType type) {
+        this.type = type;
+    }
+
+    // call toString ???
+    @Override
+    public void eat() {
+        System.out.println("You are eating " + this.type);
+    }
+
+    public MagnumType getType() {
+        return type;
+    }
 
 
+    public enum MagnumType {
 
+        MILKCHOCOLATE,
+        WHITECHOCOLATE,
+        BLACKCHOCOLATE,
+        APLINENUTS,
+        ROMANTICSTRAWBERRIES;
+
+    }
+
+    @Override
+    public String toString() {
+        return "Magnum{" +
+                "type=" + type +
+                '}';
+    }
 }
