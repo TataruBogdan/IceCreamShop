@@ -33,7 +33,8 @@ public class IceCreamSalon implements IceCreamSeller{
                 .filter(elem -> elem != null)
                 .count();
 
-        totalProfit += countOrderBalls * priceList.getBallPrice() * 0.25;
+        double priceCone = priceList.getBallPrice();
+        totalProfit += countOrderBalls * priceCone * 0.25;
 
         return iceCone;
 
@@ -46,7 +47,8 @@ public class IceCreamSalon implements IceCreamSeller{
 
         IceRocket iceRocket = new IceRocket();
 
-        this.totalProfit += priceList.getRocketPrice() * 0.2;// TODO is correct ???
+        double priceRocket = priceList.getRocketPrice();
+        this.totalProfit += priceRocket * 0.2;
 
         return iceRocket;
     }
@@ -58,7 +60,7 @@ public class IceCreamSalon implements IceCreamSeller{
 
         Magnum magnum = new Magnum(magnumType);
 
-        this.totalProfit += priceList.getMagnumPrice(magnumType) * 0.01; // TODO is correct ???
+        this.totalProfit += priceList.getMagnumPrice(magnumType) * 0.01;
 
         return magnum;
     }

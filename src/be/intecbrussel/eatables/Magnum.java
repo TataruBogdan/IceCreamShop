@@ -12,16 +12,14 @@ public class Magnum implements Eatable{
         this.type = type;
     }
 
-    // call toString ???
     @Override
     public void eat() {
-        System.out.println("You are eating " + this.type);
+        System.out.println("You are eating Magnum: " + this.type);
     }
 
     public MagnumType getType() {
         return type;
     }
-
 
     public enum MagnumType {
 
@@ -31,6 +29,10 @@ public class Magnum implements Eatable{
         APLINENUTS,
         ROMANTICSTRAWBERRIES;
 
+        @Override
+        public String toString() {
+            return "MagnumType " + super.toString();
+        }
     }
 
     @Override

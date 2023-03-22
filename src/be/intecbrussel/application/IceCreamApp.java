@@ -94,6 +94,7 @@ public class IceCreamApp {
                             iceRocketOrder = false;
                         }
                     }
+                    break;
                 case 3:
                     boolean magnumOrder = true;
                     while(magnumOrder) {
@@ -117,7 +118,6 @@ public class IceCreamApp {
                                 break;
                             case "WHITE":
                                 magnum = iceCreamSeller.orderMagnum(Magnum.MagnumType.WHITECHOCOLATE);
-
                                 break;
                             case "BLACK":
                                 magnum = iceCreamSeller.orderMagnum(Magnum.MagnumType.BLACKCHOCOLATE);
@@ -133,18 +133,23 @@ public class IceCreamApp {
                                 continue;
                             }
                         }
+
                         if (!magnumOrder) {
                             break;
                         }
                         eatables[eatableIndex++] = magnum;
                         magnum.eat(); // null pointer exception
                     }
+                    break;
                 case 4:
-                    isOrdering = false;
+                    System.out.print("Do you want another Ice Cream ? Yes or No");
+                    String choose = scanner.nextLine().toUpperCase();
+                    if (choose.equals("NO")) {
+                        isOrdering = false;
+                    }
                     break;
                 default:
                     System.out.println("Please choose between 1 and 4");
-
             }
             System.out.printf("Profit is : %.2f ", iceCreamSeller.getProfit());
         }
