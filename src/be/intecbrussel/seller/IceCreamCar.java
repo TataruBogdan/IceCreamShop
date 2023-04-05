@@ -4,6 +4,7 @@ import be.intecbrussel.eatables.Cone;
 import be.intecbrussel.eatables.IceRocket;
 import be.intecbrussel.eatables.Magnum;
 
+import java.util.Objects;
 import java.util.stream.Stream;
 
 public class IceCreamCar implements IceCreamSeller{
@@ -19,13 +20,17 @@ public class IceCreamCar implements IceCreamSeller{
 
     @Override
     public Cone orderCone(Cone.Flavor[] flavors) {
+        // OK -> guard close
+        flavors = Stream.of(flavors).filter(Objects::isNull).toArray(Cone.Flavor[]::new);
 
+        //Write with guard close
         Cone preparedCone = prepareCone(flavors);
 
         if (preparedCone != null) {
-            long countOrderBalls = Stream.of(flavors)
-                    .filter(elem -> elem != null)
-                    .count();
+//            long countOrderBalls = Stream.of(flavors)
+//                    .filter(elem -> elem != null)
+//                    .count();
+            long countOrderBalls = flavors.length;
             double priceCone = priceList.getBallPrice();
             this.profit += countOrderBalls * priceCone  * 0.25;
             return preparedCone;
@@ -35,19 +40,21 @@ public class IceCreamCar implements IceCreamSeller{
     }
 
     // get the profit from the IceCream
-
     private Cone prepareCone(Cone.Flavor[] flavors) {
 
-        Cone iceCone = new Cone(flavors);
+        Cone iceCone;
 
-        int currentStock = stock.getBalls();
-        if (currentStock != 0){
-            currentStock = currentStock - 1 ;
-        } else {
+        int currentBallStock = stock.getBalls();
+        int currentConeStock = stock.getCones();
+
+        if (currentBallStock < flavors.length || currentConeStock < 1){
             System.out.println("NO MORE CONE ICE CREAM");
             return null;
         }
-        stock.setBalls(currentStock);
+
+        iceCone = new Cone(flavors);
+        stock.setBalls(currentBallStock - flavors.length);
+        stock.setCones(currentConeStock - 1);
 
         return iceCone;
     }

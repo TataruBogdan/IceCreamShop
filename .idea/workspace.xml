@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2c2d3c0-c603-444d-8e30-17ac53cef621" name="Changes" comment="21/03 -&gt; TODO -&gt; tests">
+    <list default="true" id="e2c2d3c0-c603-444d-8e30-17ac53cef621" name="Changes" comment="22/03 ok">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/application/IceCreamApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/application/IceCreamApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/application/IceCreamApp2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/application/IceCreamApp2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/eatables/Cone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/eatables/Cone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/eatables/Magnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/eatables/Magnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/seller/IceCreamCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/seller/IceCreamCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/seller/IceCreamSalon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/seller/IceCreamSalon.java" afterDir="false" />
     </list>
@@ -39,12 +35,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/bogda/IdeaProjects/Intec2023/IceCreamShop"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.IceCreamApp2">
     <configuration name="IceCreamApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="be.intecbrussel.application.IceCreamApp" />
@@ -95,12 +93,20 @@
       <option name="project" value="LOCAL" />
       <updated>1679432189734</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="22/03 ok">
+      <created>1679480348479</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679480348479</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="21/03 -&gt; TODO -&gt; tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="21/03 -&gt; TODO -&gt; tests" />
+    <MESSAGE value="22/03 ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="22/03 ok" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -116,25 +122,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/be/intecbrussel/seller/IceCreamCar.java</url>
-          <line>55</line>
-          <properties class="be.intecbrussel.seller.IceCreamCar" method="orderIceRocket">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/be/intecbrussel/seller/IceCreamCar.java</url>
-          <line>68</line>
-          <properties class="be.intecbrussel.seller.IceCreamCar" method="prepareRocket">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/be/intecbrussel/seller/IceCreamCar.java</url>
-          <line>86</line>
+          <line>93</line>
           <properties class="be.intecbrussel.seller.IceCreamCar" method="orderMagnum">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -143,7 +131,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/be/intecbrussel/seller/IceCreamCar.java</url>
-          <line>99</line>
+          <line>106</line>
           <properties class="be.intecbrussel.seller.IceCreamCar" method="prepareMagnum">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

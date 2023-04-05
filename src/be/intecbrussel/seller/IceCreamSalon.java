@@ -48,9 +48,12 @@ public class IceCreamSalon implements IceCreamSeller{
         IceRocket iceRocket = new IceRocket();
 
         double priceRocket = priceList.getRocketPrice();
-        this.totalProfit += priceRocket * 0.2;
-
-        return iceRocket;
+        if (priceRocket != 0){
+            this.totalProfit += priceRocket * 0.2;
+            return iceRocket;
+        } else {
+            return null;
+        }
     }
 
     // orderMagnum will create and return a new Magnum based on a MagnumType.
@@ -60,7 +63,9 @@ public class IceCreamSalon implements IceCreamSeller{
 
         Magnum magnum = new Magnum(magnumType);
 
-        this.totalProfit += priceList.getMagnumPrice(magnumType) * 0.01;
+        double magnumPrice = priceList.getMagnumPrice(magnumType);
+
+        this.totalProfit += magnumPrice * 0.01;
 
         return magnum;
     }
