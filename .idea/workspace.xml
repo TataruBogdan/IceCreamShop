@@ -4,10 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2c2d3c0-c603-444d-8e30-17ac53cef621" name="Changes" comment="22/03 ok">
+    <list default="true" id="e2c2d3c0-c603-444d-8e30-17ac53cef621" name="Changes" comment="16/05  - Tests added - Maven">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/application/IceCreamAppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/eatables/ConeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/seller/IceCreamCarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/seller/IceCreamSalonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/seller/StockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/IceCreamShop-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/application/IceCreamApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/application/IceCreamApp1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/eatables/Cone$Flavor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/eatables/Cone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/eatables/Eatable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/eatables/IceRocket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/eatables/Magnum$MagnumType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/eatables/Magnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/seller/IceCreamCar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/seller/IceCreamSalon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/seller/IceCreamSeller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/seller/PriceList$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/seller/PriceList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/seller/Profitable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/seller/Stock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/be/intecbrussel/application/IceCreamAppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/be/intecbrussel/eatables/ConeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/be/intecbrussel/seller/IceCreamCarTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/be/intecbrussel/seller/IceCreamSalonTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/be/intecbrussel/seller/StockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/seller/IceCreamCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/seller/IceCreamCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/seller/IceCreamSalon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/seller/IceCreamSalon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IceCreamShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IceCreamShop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/application/IceCreamApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/application/IceCreamApp1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/application/IceCreamApp2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/application/IceCreamApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/eatables/Cone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/eatables/Cone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/eatables/Eatable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/eatables/Eatable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/eatables/IceRocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/eatables/IceRocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/eatables/Magnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/eatables/Magnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/seller/IceCreamCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/seller/IceCreamCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/seller/IceCreamSalon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/seller/IceCreamSalon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/seller/IceCreamSeller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/seller/IceCreamSeller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/seller/PriceList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/seller/PriceList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/seller/Profitable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/seller/Profitable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/seller/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/seller/Stock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +67,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -35,45 +83,122 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/bogda/IdeaProjects/Intec2023/IceCreamShop"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bogda/IdeaProjects/Intec2023/IceCreamShop&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.17031068&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.IceCreamApp2">
-    <configuration name="IceCreamApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.application.IceCreamApp" />
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bogda\IdeaProjects\Intec2023\IceCreamShop\src" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="be.intecbrussel.seller" />
+      <recent name="be.intecbrussel.eatables" />
+      <recent name="be.intecbrussel.application" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.IceCreamCarTest">
+    <configuration name="IceCreamCarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IceCreamShop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.intecbrussel.application.*" />
+          <option name="PATTERN" value="be.intecbrussel.seller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="be.intecbrussel.seller" />
+      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.seller.IceCreamCarTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IceCreamApp2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.application.IceCreamApp2" />
+    <configuration name="IceCreamCarTest.shouldReturnTrueWhenConeFlavoursIsNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IceCreamShop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="be.intecbrussel.application.*" />
+          <option name="PATTERN" value="be.intecbrussel.seller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="be.intecbrussel.seller" />
+      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.seller.IceCreamCarTest" />
+      <option name="METHOD_NAME" value="shouldReturnTrueWhenConeFlavoursIsNotNull(java.util.List)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IceCreamCarTest.shouldReturnTrueWhenConeFlavoursIsNull (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IceCreamShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.intecbrussel.seller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.intecbrussel.seller" />
+      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.seller.IceCreamCarTest" />
+      <option name="METHOD_NAME" value="shouldReturnTrueWhenConeFlavoursIsNull([Lbe.intecbrussel.eatables.Cone$Flavor;)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IceCreamCarTest.shouldReturnTrueWhenConeFlavoursIsNull (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IceCreamShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.intecbrussel.seller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.intecbrussel.seller" />
+      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.seller.IceCreamCarTest" />
+      <option name="METHOD_NAME" value="shouldReturnTrueWhenConeFlavoursIsNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IceCreamCarTest.shouldReturnTrueWhenConeFlavoursIsNull (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IceCreamShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.intecbrussel.seller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.intecbrussel.seller" />
+      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.seller.IceCreamCarTest" />
+      <option name="METHOD_NAME" value="shouldReturnTrueWhenConeFlavoursIsNull(java.util.List)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IceCreamApp2" />
-        <item itemvalue="Application.IceCreamApp" />
+        <item itemvalue="JUnit.IceCreamCarTest" />
+        <item itemvalue="JUnit.IceCreamCarTest.shouldReturnTrueWhenConeFlavoursIsNotNull" />
+        <item itemvalue="JUnit.IceCreamCarTest.shouldReturnTrueWhenConeFlavoursIsNull (3)" />
+        <item itemvalue="JUnit.IceCreamCarTest.shouldReturnTrueWhenConeFlavoursIsNull (1)" />
+        <item itemvalue="JUnit.IceCreamCarTest.shouldReturnTrueWhenConeFlavoursIsNull (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -100,19 +225,27 @@
       <option name="project" value="LOCAL" />
       <updated>1679480348479</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="22/03 ok">
+      <created>1680703414835</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680703414835</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="21/03 -&gt; TODO -&gt; tests" />
     <MESSAGE value="22/03 ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="22/03 ok" />
+    <MESSAGE value="16/05  - Tests added - Maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="16/05  - Tests added - Maven" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/be/intecbrussel/seller/PriceList.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/be/intecbrussel/seller/PriceList.java</url>
           <line>39</line>
           <properties class="be.intecbrussel.seller.PriceList" method="getMagnumPrice">
             <option name="EMULATED" value="true" />
@@ -121,34 +254,101 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/be/intecbrussel/seller/IceCreamCar.java</url>
-          <line>93</line>
-          <properties class="be.intecbrussel.seller.IceCreamCar" method="orderMagnum">
+          <url>file://$PROJECT_DIR$/src/main/java/be/intecbrussel/seller/PriceList.java</url>
+          <line>20</line>
+          <properties class="be.intecbrussel.seller.PriceList" method="getBallPrice">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/be/intecbrussel/seller/IceCreamCar.java</url>
-          <line>106</line>
-          <properties class="be.intecbrussel.seller.IceCreamCar" method="prepareMagnum">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/be/intecbrussel/application/IceCreamApp2.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/be/intecbrussel/application/IceCreamApp2.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="27" />
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/IceCreamShop$IceCreamSalonTest_shouldReturnEqualsWhenProfit.ic" NAME="IceCreamSalonTest.shouldReturnEqualsWhenProfit Coverage Results" MODIFIED="1684160651557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$IceCreamCarTest_shouldReturnTrueWhenConeFlavoursIsNullOrderIceRocket__1_.ic" NAME="IceCreamCarTest.shouldReturnTrueWhenConeFlavoursIsNullOrderIceRocket (1) Coverage Results" MODIFIED="1684157619018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$IceCreamCarTest_shouldReturnTrueWhenConeFlavoursIsNull__1_.ic" NAME="IceCreamCarTest.shouldReturnTrueWhenConeFlavoursIsNull (1) Coverage Results" MODIFIED="1684179755047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$IceCreamSalonTest_houldReturnNullNoStockOrderCone.ic" NAME="IceCreamSalonTest.houldReturnNullNoStockOrderCone Coverage Results" MODIFIED="1684159757218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$IceCreamCarTest_shouldReturnTrueWhenConeFlavoursIsNullOrderIceRocket.ic" NAME="IceCreamCarTest.shouldReturnTrueWhenConeFlavoursIsNullOrderIceRocket Coverage Results" MODIFIED="1684159933460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$IceCreamCarTest_shouldReturnTrueWhenPrepareConeFlavoursIsNotNull.ic" NAME="IceCreamCarTest.shouldReturnTrueWhenPrepareConeFlavoursIsNotNull Coverage Results" MODIFIED="1684157689813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$IceCreamCarTest_getProfit.ic" NAME="IceCreamCarTest.getProfit Coverage Results" MODIFIED="1684160074739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$StockTest_getConesTest.ic" NAME="StockTest.getConesTest Coverage Results" MODIFIED="1684166103442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$ConeTest_shouldReturnEqualsWhenConeHasTheSameFlavorsWithConeFlavours.ic" NAME="ConeTest.shouldReturnEqualsWhenConeHasTheSameFlavorsWithConeFlavours Coverage Results" MODIFIED="1684177463255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.eatables.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$IceCreamCarTest.ic" NAME="IceCreamCarTest Coverage Results" MODIFIED="1684226509932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$IceCreamCarTest_shouldReturnTrueWhenConeFlavoursIsNotNull__1_.ic" NAME="IceCreamCarTest.shouldReturnTrueWhenConeFlavoursIsNotNull (1) Coverage Results" MODIFIED="1684156196021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$IceCreamCarTest_shouldReturnTrueWhenConeFlavoursIsNotNull.ic" NAME="IceCreamCarTest.shouldReturnTrueWhenConeFlavoursIsNotNull Coverage Results" MODIFIED="1684226422669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$StockTest.ic" NAME="StockTest Coverage Results" MODIFIED="1684166528167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$IceCreamCarTest_shouldReturnTrueWhenPrepareConeFlavoursIsNull.ic" NAME="IceCreamCarTest.shouldReturnTrueWhenPrepareConeFlavoursIsNull Coverage Results" MODIFIED="1684156804121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$IceCreamCarTest_shouldReturnTrueWhenConeFlavoursisNullOrderIceRocket.ic" NAME="IceCreamCarTest.shouldReturnTrueWhenConeFlavoursisNullOrderIceRocket Coverage Results" MODIFIED="1684154792138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$IceCreamCarTest_shouldReturnTrueWhenConeFlavoursIsNull__3_.ic" NAME="IceCreamCarTest.shouldReturnTrueWhenConeFlavoursIsNull (3) Coverage Results" MODIFIED="1684220407478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$IceCreamSalonTest_shouldReturnNullNoStockOrderCone__1_.ic" NAME="IceCreamSalonTest.shouldReturnNullNoStockOrderCone (1) Coverage Results" MODIFIED="1684161234916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$StockTest_setCones.ic" NAME="StockTest.setCones Coverage Results" MODIFIED="1684165314626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$IceCreamSalonTest.ic" NAME="IceCreamSalonTest Coverage Results" MODIFIED="1684160265752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$ConeTest.ic" NAME="ConeTest Coverage Results" MODIFIED="1684157396284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.eatables.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$ConeTest_shouldReturnEqualsWhenConeHasTheSameFlavorsWithConeFlavours__1_.ic" NAME="ConeTest.shouldReturnEqualsWhenConeHasTheSameFlavorsWithConeFlavours (1) Coverage Results" MODIFIED="1684178370746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.eatables.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$IceCreamCarTest_shouldReturnTrueWhenConeFlavoursNotNull.ic" NAME="IceCreamCarTest.shouldReturnTrueWhenConeFlavoursNotNull Coverage Results" MODIFIED="1684156061640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$StockTest_setIceRockets.ic" NAME="StockTest.setIceRockets Coverage Results" MODIFIED="1684165227643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$IceCreamSalonTest_getProfit.ic" NAME="IceCreamSalonTest.getProfit Coverage Results" MODIFIED="1684164767579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$IceCreamSalonTest_shouldReturnNullNoStockOrderCone.ic" NAME="IceCreamSalonTest.shouldReturnNullNoStockOrderCone Coverage Results" MODIFIED="1684160695880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$IceCreamCarTest_shouldReturnTrueWhenConeFlavoursIsNull.ic" NAME="IceCreamCarTest.shouldReturnTrueWhenConeFlavoursIsNull Coverage Results" MODIFIED="1684179433342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$ConeTest_shouldReturnEqualsWhen.ic" NAME="ConeTest.shouldReturnEqualsWhen Coverage Results" MODIFIED="1684143089568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.eatables.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$IceCreamCarTest_shouldReturnTrueWhenOrderMagnum.ic" NAME="IceCreamCarTest.shouldReturnTrueWhenOrderMagnum Coverage Results" MODIFIED="1684160183063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.seller.*</FILTER>
+    </SUITE>
   </component>
 </project>

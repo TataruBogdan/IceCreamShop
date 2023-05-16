@@ -9,7 +9,7 @@ import be.intecbrussel.seller.PriceList;
 
 import java.util.Scanner;
 
-public class IceCreamApp {
+public class IceCreamApp1 {
 
     public static void main(String[] args) {
 

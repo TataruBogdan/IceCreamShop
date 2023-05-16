@@ -9,10 +9,9 @@ import be.intecbrussel.seller.PriceList;
 import be.intecbrussel.seller.Stock;
 
 import java.util.Objects;
-import java.util.Scanner;
 import java.util.stream.Stream;
 
-public class IceCreamApp2 {
+public class IceCreamApp {
 
 
     public static void main(String[] args) {
@@ -30,7 +29,7 @@ public class IceCreamApp2 {
 
         IceCreamCar iceCreamCar = new IceCreamCar(priceList, stock);
 
-        Cone.Flavor[] balls = {Cone.Flavor.BANANA, Cone.Flavor.CHOCOLATE, Cone.Flavor.LEMON};
+        Cone.Flavor[] balls = {null};
         Cone.Flavor[] balls2 = {
                 Cone.Flavor.STRAWBERRY,
                 Cone.Flavor.VANILLA,
@@ -64,7 +63,6 @@ public class IceCreamApp2 {
         eatable[5] = magnum;
         eatable[6] = magnum2;
         eatable[7] = magnum3;
-
 
         Stream.of(eatable)
                 .filter(Objects::nonNull)

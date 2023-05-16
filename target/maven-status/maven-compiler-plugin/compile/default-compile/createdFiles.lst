@@ -1,0 +1,15 @@
+be\intecbrussel\eatables\Eatable.class
+be\intecbrussel\seller\IceCreamSeller.class
+be\intecbrussel\eatables\Magnum$MagnumType.class
+be\intecbrussel\seller\IceCreamSalon.class
+be\intecbrussel\seller\IceCreamCar.class
+be\intecbrussel\application\IceCreamApp.class
+be\intecbrussel\eatables\Cone$Flavor.class
+be\intecbrussel\seller\Stock.class
+be\intecbrussel\application\IceCreamApp1.class
+be\intecbrussel\eatables\Magnum.class
+be\intecbrussel\eatables\Cone.class
+be\intecbrussel\seller\PriceList$1.class
+be\intecbrussel\seller\PriceList.class
+be\intecbrussel\eatables\IceRocket.class
+be\intecbrussel\seller\Profitable.class

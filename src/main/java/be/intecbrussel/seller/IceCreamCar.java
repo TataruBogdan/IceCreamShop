@@ -21,7 +21,7 @@ public class IceCreamCar implements IceCreamSeller{
     @Override
     public Cone orderCone(Cone.Flavor[] flavors) {
         // OK -> guard close
-        flavors = Stream.of(flavors).filter(Objects::isNull).toArray(Cone.Flavor[]::new);
+        flavors = Stream.of(flavors).filter(flavor -> flavor != null).toArray(Cone.Flavor[]::new);
 
         //Write with guard close
         Cone preparedCone = prepareCone(flavors);

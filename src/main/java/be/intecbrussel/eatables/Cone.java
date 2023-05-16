@@ -8,7 +8,7 @@ public class Cone implements Eatable{
 
     // default value Vanilla
     public Cone() {
-        this(new Flavor[Flavor.VANILLA.ordinal()]);
+        this(new Flavor[]{Flavor.VANILLA});
     }
 
     public Cone(Flavor[] balls) {
@@ -41,5 +41,18 @@ public class Cone implements Eatable{
         return "Cone{" +
                 "balls=" + Arrays.toString(this.balls) +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Cone cone = (Cone) o;
+        return Arrays.equals(balls, cone.balls);
+    }
+
+    @Override
+    public int hashCode() {
+        return Arrays.hashCode(balls);
     }
 }
