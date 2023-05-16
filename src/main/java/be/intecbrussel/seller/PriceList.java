@@ -36,7 +36,7 @@ public class PriceList {
 
     // will return, based on a given MagnumType and a generally specified magnumStandardPrice,
     // what the price of such a magnum will be. Eg:
-    // An alpinenuts magnum will be 1.5 times the price of a standard magnum
+    // An alpine nuts magnum will be 1.5 times the price of a standard magnum
     public double getMagnumPrice(Magnum.MagnumType magnumType) {
 
         double totalPrice = 0;

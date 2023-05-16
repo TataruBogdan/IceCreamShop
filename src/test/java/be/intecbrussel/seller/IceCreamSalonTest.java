@@ -22,44 +22,68 @@ class IceCreamSalonTest {
         iceCreamSalon = new IceCreamSalon(priceList);
     }
 
+    @ParameterizedTest
+    @MethodSource("returnFlavours")
+    void shouldReturnEqualsWhenNoStockOrderCone(Cone.Flavor coneFlavour) {
+        //fail("Must be implemented");
+
+        // given
+
+        //when
+        Cone.Flavor[] flavors = {coneFlavour};
+        Cone cone = iceCreamSalon.orderCone(flavors);
+        //then
+        assertNotNull(cone);
+
+        assertEquals(0, iceCreamSalon.getProfit());
+    }
+
     @Test
-    void shouldReturnEqualsWhenProfit() {
+    void shouldReturnEqualsWhenPriceListIceCreamSalonAndProfit() {
         //fail("Must be implemented");
         //given
         PriceList priceListProfit = new PriceList(1,2,4);
+        assertNotNull(priceListProfit);
         IceCreamSalon iceCreamSalonProfit = new IceCreamSalon(priceListProfit);
+        assertNotNull(iceCreamSalonProfit);
 
         //when
         Magnum magnum = iceCreamSalonProfit.orderMagnum(Magnum.MagnumType.APLINENUTS);
+        assertNotNull(magnum);
         double profit = iceCreamSalonProfit.getProfit();
         //then
         assertEquals(0.06, profit);
     }
 
-    @ParameterizedTest
-    @MethodSource("returnFlavours")
-    void shouldReturnNullNoStockOrderCone(Cone.Flavor coneFlavour) {
+
+
+    @Test
+    void shouldReturnTrueWhenPriceListZeroAndOrderIceRocket() {
         //fail("Must be implemented");
 
         // given
-        Cone.Flavor[] flavors = {coneFlavour};
+
+        // when
+        IceRocket iceRocket = iceCreamSalon.orderIceRocket();
+        // then
+        assertNull(iceRocket);
+    }
+
+    @Test
+    void shouldReturnNotNullWhenPriceListIceCreamSalonAndOrderMagnum() {
+        //fail("Must be implemented");
+
+        //given
+        PriceList priceListProfit = new PriceList(1,2,4);
+        assertNotNull(priceListProfit);
+        IceCreamSalon iceCreamSalonProfit = new IceCreamSalon(priceListProfit);
+        assertNotNull(iceCreamSalonProfit);
 
         //when
-        Cone cone = iceCreamSalon.orderCone(flavors);
-        //then
-        assertNotNull(cone, "ice cream cone : ");
+        Magnum magnum = iceCreamSalonProfit.orderMagnum(Magnum.MagnumType.APLINENUTS);
+        assertNotNull(magnum);
 
 
-    }
-
-    @Test
-    void orderIceRocket() {
-        fail("Must be implemented");
-    }
-
-    @Test
-    void orderMagnum() {
-        fail("Must be implemented");
     }
 
     static Stream<Cone.Flavor> returnFlavours() {
@@ -68,7 +92,7 @@ class IceCreamSalonTest {
     }
 
     @Test
-    void getProfit() {
+    void souldReturnEqualsWhengetProfit() {
         //fail("Must be implemented");
 
         //given

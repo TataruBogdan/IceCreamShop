@@ -47,8 +47,8 @@ class IceCreamCarTest {
 
     @ParameterizedTest
     @MethodSource("returnFlavoursList")
-    //@Test
-    void shouldReturnEqualsWhenConeFlavoursIsNotNull(List<Cone.Flavor> flavors) {
+        //@Test
+    void shouldReturnEqualsProfitWhenConeFlavoursIsNotNullAndIsStock(List<Cone.Flavor> flavors) {
 
         // given
 
@@ -61,7 +61,7 @@ class IceCreamCarTest {
         Cone result = iceCreamCar.orderCone(flavors.toArray(new Cone.Flavor[]{}));
 
         // then
-        // assertNotNull(result);
+        assertNotNull(result);
 
         assertEquals(0.5, iceCreamCar.getProfit());
 
@@ -70,7 +70,7 @@ class IceCreamCarTest {
     @ParameterizedTest
     @MethodSource("returnFlavoursList")
         //@Test
-    void shouldReturnTrueWhenConeFlavoursIsNotNull(List<Cone.Flavor> flavors) {
+    void shouldReturnTrueWhenConeFlavoursIsNotNullWithStock(List<Cone.Flavor> flavors) {
 
         // given
 
@@ -89,7 +89,6 @@ class IceCreamCarTest {
 
     }
 
-    //TODO - HOW TO TEST FOR NULL
     @Test
     void shouldReturnTrueWhenConeFlavoursIsNullOrderIceRocket() {
         //fail("Must be implemented");
@@ -102,7 +101,6 @@ class IceCreamCarTest {
         assertNull(iceRocket);
 
     }
-
 
 //    @ParameterizedTest
 //    @MethodSource("returnFlavours")
@@ -121,7 +119,7 @@ class IceCreamCarTest {
 
     @ParameterizedTest
     @MethodSource("returnFlavours")
-    void shouldReturnTrueWhenOrderMagnum(Cone.Flavor coneFlavour) {
+    void shouldReturnNullWhenOrderMagnum(Cone.Flavor coneFlavour) {
         //fail("Must be implemented");
 
         //given
@@ -134,6 +132,41 @@ class IceCreamCarTest {
 
 
     }
+
+    //    @ParameterizedTest
+//    @EnumSource(value = Magnum.MagnumType.class)
+    @Test
+    void shouldReturnEqualsProfitWhenMagnumOrderConeFlavoursIsNotNullAndIsStock() {
+
+        // given
+
+        // when
+        stock.setMagni(3);
+        assertEquals(0.0, iceCreamCar.getProfit());
+
+        Magnum magnum = iceCreamCar.orderMagnum(Magnum.MagnumType.BLACKCHOCOLATE);
+
+        // then
+        assertNotNull(magnum);
+        assertEquals(0.01875, iceCreamCar.getProfit());
+
+    }
+
+
+//    @ParameterizedTest
+//    @EnumSource(value = Magnum.MagnumType.class)
+//    void shouldReturnNullWhenCurrentStockIsNull(Magnum.MagnumType magnumType) {
+//
+//        // given
+//        //stock.setMagni(0);
+//
+//        // then
+//        Magnum magnum = iceCreamCar.orderMagnum(magnumType);
+//
+//        //then
+//        assertNull(magnum);
+//    }
+
 
     @Test
     void getProfit() {

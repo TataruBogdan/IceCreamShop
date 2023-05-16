@@ -19,7 +19,7 @@ public class Cone implements Eatable{
     // all different types of balls,
     @Override
     public void eat() {
-        System.out.println("You are eating Cone with: "
+        System.out.print("You are eating Cone with: "
                                    + Arrays.toString(this.balls));
 
     }

@@ -9,6 +9,8 @@ import org.junit.jupiter.params.provider.EnumSource;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
@@ -41,7 +43,7 @@ class ConeTest {
     }
 
     @Test
-    void shouldReturnEqualsWhenConeHasTheSameFlavorsWithConeFlavours() {
+    void shouldReturnEqualsWhenConeFlavours() {
 
         //given
 
@@ -63,6 +65,19 @@ class ConeTest {
 
 
 
+
+    @Test
+    void shouldTestVoidEatWhyIDontKnow(){
+        PrintStream original = System.out;
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        PrintStream tps = new PrintStream(baos);
+        Cone cone = new Cone(new Cone.Flavor[]{Cone.Flavor.VANILLA});
+        System.setOut(tps);
+        cone.eat();
+        System.setOut(original);
+        tps.flush();
+        assertEquals("You are eating Cone with: [VANILLA]", baos.toString());
+    }
 
 
 
