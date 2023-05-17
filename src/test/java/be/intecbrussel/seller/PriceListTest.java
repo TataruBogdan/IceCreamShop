@@ -104,7 +104,6 @@ class PriceListTest {
         double magnumPriceTypeRTCS = priceList.getMagnumPrice(magnumType[3]);
         double magnumPriceTypeAlpine = priceList.getMagnumPrice(magnumType[4]);
 
-
         //then
         assertEquals(expectedPrice[0], magnumPriceType );
         assertEquals(expectedPrice[1], magnumPriceTypeWhite );
