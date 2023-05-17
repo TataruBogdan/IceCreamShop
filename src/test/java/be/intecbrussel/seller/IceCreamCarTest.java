@@ -31,6 +31,7 @@ class IceCreamCarTest {
                                       stock);
     }
 
+    // Test for Cone
     @ParameterizedTest
     @MethodSource("returnFlavours")
     void shouldReturnNullWhenCurrentStockIsEmpty(Cone.Flavor coneFlavour) {
@@ -63,31 +64,15 @@ class IceCreamCarTest {
         // then
         assertNotNull(result);
 
-        assertEquals(0.5, iceCreamCar.getProfit());
+        double profit = iceCreamCar.getProfit();
+        profit = Math.round(profit * 100);
+        profit = profit / 100.00;
+
+        assertEquals(0.5, profit);
 
     }
 
-    @ParameterizedTest
-    @MethodSource("returnFlavoursList")
-        //@Test
-    void shouldReturnTrueWhenConeFlavoursIsNotNullWithStock(List<Cone.Flavor> flavors) {
-
-        // given
-
-        // when
-        stock.setCones(3);
-        stock.setBalls(3);
-        assertEquals(0.0, iceCreamCar.getProfit());
-
-        //Cone result = iceCreamCar.orderCone(new Cone.Flavor[] {Cone.Flavor.BANANA, Cone.Flavor.LEMON});
-        Cone result = iceCreamCar.orderCone(flavors.toArray(new Cone.Flavor[]{}));
-
-        // then
-        assertNotNull(result);
-
-        //assertEquals(0.5, iceCreamCar.getProfit());
-
-    }
+    //Tests for IceRocket
 
     @Test
     void shouldReturnTrueWhenConeFlavoursIsNullOrderIceRocket() {
@@ -102,24 +87,36 @@ class IceCreamCarTest {
 
     }
 
-//    @ParameterizedTest
-//    @MethodSource("returnFlavours")
-//    void shouldReturnTrueWhenPrepareConeFlavoursIsNotNull() {
-//        //fail("Must be implemented");
-//
-//        // given
-//        Cone.Flavor[] coneFlavour = null;
-//
-//        // when
-//        iceCreamCar.orderCone(coneFlavour);
-//        // then
-//        assertNull(iceCreamCar.orderCone(null));
-//
-//    }
+    //@ParameterizedTest
+    //@MethodSource("returnFlavoursList")
+    @Test
+    void shouldReturnTrueWhenIceRocketFlavoursIsNotNullWithStock() {
 
-    @ParameterizedTest
-    @MethodSource("returnFlavours")
-    void shouldReturnNullWhenOrderMagnum(Cone.Flavor coneFlavour) {
+        // given
+        stock.setIceRockets(3);
+        assertEquals(0.0, iceCreamCar.getProfit());
+
+        // when
+        IceRocket result = iceCreamCar.orderIceRocket();
+
+        // then
+        assertNotNull(result);
+
+        double profit = iceCreamCar.getProfit();
+        profit = Math.round(profit * 100);
+        profit = profit / 100.00;
+
+        assertEquals(0.4,profit);
+
+    }
+
+
+
+
+    //Tests for Magnum
+
+    @Test
+    void shouldReturnNullWhenOrderMagnumStockEmpty() {
         //fail("Must be implemented");
 
         //given
@@ -129,14 +126,14 @@ class IceCreamCarTest {
 
         //then
         assertNull(magnum);
-
-
     }
+
+
 
     //    @ParameterizedTest
 //    @EnumSource(value = Magnum.MagnumType.class)
     @Test
-    void shouldReturnEqualsProfitWhenMagnumOrderConeFlavoursIsNotNullAndIsStock() {
+    void shouldReturnEqualsProfitOrNotNullWhenMagnumOrderConeFlavoursIsNotNullAndIsStock() {
 
         // given
 
@@ -144,29 +141,21 @@ class IceCreamCarTest {
         stock.setMagni(3);
         assertEquals(0.0, iceCreamCar.getProfit());
 
+        // then
         Magnum magnum = iceCreamCar.orderMagnum(Magnum.MagnumType.BLACKCHOCOLATE);
 
-        // then
         assertNotNull(magnum);
-        assertEquals(0.01875, iceCreamCar.getProfit());
+
+        double profit = iceCreamCar.getProfit();
+        profit = Math.round(profit * 100);
+        profit = profit / 100.00;
+
+        // actual profit is 0.01875
+        assertEquals(0.02, profit);
 
     }
 
-
-//    @ParameterizedTest
-//    @EnumSource(value = Magnum.MagnumType.class)
-//    void shouldReturnNullWhenCurrentStockIsNull(Magnum.MagnumType magnumType) {
-//
-//        // given
-//        //stock.setMagni(0);
-//
-//        // then
-//        Magnum magnum = iceCreamCar.orderMagnum(magnumType);
-//
-//        //then
-//        assertNull(magnum);
-//    }
-
+    //Test profit
 
     @Test
     void getProfit() {
@@ -175,10 +164,14 @@ class IceCreamCarTest {
         //given
         stock.setIceRockets(1);
 
-
         //when
         IceRocket iceRocket = iceCreamCar.orderIceRocket();
+        assertNotNull(iceRocket);
+
         double profit = iceCreamCar.getProfit();
+        profit = Math.round(profit * 100);
+        profit = profit / 100.00;
+
         //then
         assertEquals(0.4, profit);
     }

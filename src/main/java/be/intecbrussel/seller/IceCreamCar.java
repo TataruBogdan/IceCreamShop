@@ -4,10 +4,9 @@ import be.intecbrussel.eatables.Cone;
 import be.intecbrussel.eatables.IceRocket;
 import be.intecbrussel.eatables.Magnum;
 
-import java.util.Objects;
 import java.util.stream.Stream;
 
-public class IceCreamCar implements IceCreamSeller{
+public class IceCreamCar implements IceCreamSeller {
 
     private PriceList priceList;
     private Stock stock;
@@ -32,7 +31,7 @@ public class IceCreamCar implements IceCreamSeller{
 //                    .count();
             long countOrderBalls = flavors.length;
             double priceCone = priceList.getBallPrice();
-            this.profit += countOrderBalls * priceCone  * 0.25;
+            this.profit += countOrderBalls * priceCone * 0.25;
             return preparedCone;
         } else {
             return null;
@@ -47,7 +46,7 @@ public class IceCreamCar implements IceCreamSeller{
         int currentBallStock = stock.getBalls();
         int currentConeStock = stock.getCones();
 
-        if (currentBallStock < flavors.length || currentConeStock < 1){
+        if (currentBallStock < flavors.length || currentConeStock < 1) {
             System.out.println("NO MORE CONE ICE CREAM");
             return null;
         }
@@ -63,7 +62,6 @@ public class IceCreamCar implements IceCreamSeller{
     public IceRocket orderIceRocket() {
 
         IceRocket iceRocket = prepareRocket();
-
         if (iceRocket != null) {
             double priceIceRocket = priceList.getRocketPrice();
             this.profit += priceIceRocket * 0.2;
@@ -72,21 +70,17 @@ public class IceCreamCar implements IceCreamSeller{
         }
         return iceRocket;
     }
-
     private IceRocket prepareRocket() {
 
         IceRocket iceRocket = new IceRocket();
-
-        int currentStock =  stock.getIceRockets();
+        int currentStock = stock.getIceRockets();
         if (currentStock != 0) {
             currentStock = currentStock - 1;
         } else {
             System.out.println("NO MORE ROCKET ICE CREAM");
             return null;
         }
-
         stock.setIceRockets(currentStock);
-
         return iceRocket;
     }
 

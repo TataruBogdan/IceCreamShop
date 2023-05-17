@@ -1,6 +1,8 @@
 package be.intecbrussel.eatables;
 
 import com.sun.source.tree.AssertTree;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.function.Executable;
@@ -20,7 +22,7 @@ class ConeTest {
 
     Cone cone;
 
-    @Test
+    @BeforeEach
     void setup() {
         cone= new Cone(new Cone.Flavor[] {Cone.Flavor.BANANA, Cone.Flavor.LEMON});
     }
@@ -77,6 +79,30 @@ class ConeTest {
         System.setOut(original);
         tps.flush();
         assertEquals("You are eating Cone with: [VANILLA]", baos.toString());
+    }
+
+    @Test
+    void shouldReturnEqualWhenToString(){
+
+        //given
+
+        //when
+        String string = cone.toString();
+        //then
+        assertEquals("Cone{balls=[BANANA, LEMON]}", string);
+    }
+
+    @Test
+    void shouldReturnEqualWhenEquals(){
+
+        //given
+        Cone cone1 = new Cone(new Cone.Flavor[] {Cone.Flavor.BANANA, Cone.Flavor.LEMON});
+
+        //when
+        int hashedCode = cone.hashCode();
+        //then
+        assertTrue(cone1.equals(cone) && cone.equals(cone1));
+        assertEquals(hashedCode, cone1.hashCode());
     }
 
 
