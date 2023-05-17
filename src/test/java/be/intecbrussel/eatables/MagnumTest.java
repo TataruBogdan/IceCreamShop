@@ -1,5 +1,6 @@
 package be.intecbrussel.eatables;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.EnumSource;
@@ -13,6 +14,13 @@ import java.util.Arrays;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MagnumTest {
+
+    Magnum magnum;
+
+    @BeforeEach
+    void setup() {
+        magnum = new Magnum();
+    }
 
     @Test
     void shouldReturnEqualsWhenMagnum() {
@@ -69,5 +77,17 @@ class MagnumTest {
         //then
         assertEquals(magnum.getType(), type);
 
+    }
+
+    @Test
+    void shouldReturnEqualWhenToString(){
+
+        //given
+
+        //when
+        String string = magnum.toString();
+        //then
+        assertEquals("Magnum{type=MagnumType MILKCHOCOLATE}",
+                     string);
     }
 }

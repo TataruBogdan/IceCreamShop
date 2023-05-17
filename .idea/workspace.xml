@@ -6,10 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="e2c2d3c0-c603-444d-8e30-17ac53cef621" name="Changes" comment="16/05  - Tests added - Maven">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/intecbrussel/seller/IceCreamCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/seller/IceCreamCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/intecbrussel/eatables/ConeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/eatables/ConeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/intecbrussel/seller/PriceList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/seller/PriceList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/intecbrussel/eatables/MagnumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/eatables/MagnumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/be/intecbrussel/seller/IceCreamCarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/seller/IceCreamCarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/intecbrussel/seller/IceCreamSalonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/seller/IceCreamSalonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/be/intecbrussel/seller/PriceListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/intecbrussel/seller/PriceListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/intecbrussel/seller/IceCreamCarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/intecbrussel/seller/IceCreamCarTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/be/intecbrussel/seller/PriceListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/be/intecbrussel/seller/PriceListTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +70,38 @@
       <recent name="be.intecbrussel.application" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PriceListTest.shouldReturnEqualsWhenMagnumTypeMatchParameterType (3)">
-    <configuration name="ConeTest.shouldReturnEqualWhenEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StockTest">
+    <configuration name="IceCreamCarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IceCreamShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.intecbrussel.seller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.intecbrussel.seller" />
+      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.seller.IceCreamCarTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IceCreamSalonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IceCreamShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.intecbrussel.seller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.intecbrussel.seller" />
+      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.seller.IceCreamSalonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MagnumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IceCreamShop" />
       <extension name="coverage">
         <pattern>
@@ -77,14 +110,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="be.intecbrussel.eatables" />
-      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.eatables.ConeTest" />
-      <option name="METHOD_NAME" value="shouldReturnEqualWhenEquals" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.eatables.MagnumTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriceListTest.shouldReturnEqualsWhenMagnumTypeMatchParameterType (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PriceListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IceCreamShop" />
       <extension name="coverage">
         <pattern>
@@ -94,13 +126,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="be.intecbrussel.seller" />
       <option name="MAIN_CLASS_NAME" value="be.intecbrussel.seller.PriceListTest" />
-      <option name="METHOD_NAME" value="shouldReturnEqualsWhenMagnumTypeMatchParameterType(java.util.List,java.util.List)" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriceListTest.shouldReturnEqualsWhenMagnumTypeMatchParameterType (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IceCreamShop" />
       <extension name="coverage">
         <pattern>
@@ -109,52 +140,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="be.intecbrussel.seller" />
-      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.seller.PriceListTest" />
-      <option name="METHOD_NAME" value="shouldReturnEqualsWhenMagnumTypeMatchParameterType([Lbe.intecbrussel.eatables.Magnum$MagnumType;,java.util.List)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PriceListTest.shouldReturnEqualsWhenMagnumTypeMatchParameterType (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IceCreamShop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.intecbrussel.seller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.intecbrussel.seller" />
-      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.seller.PriceListTest" />
-      <option name="METHOD_NAME" value="shouldReturnEqualsWhenMagnumTypeMatchParameterType([Lbe.intecbrussel.eatables.Magnum$MagnumType;,double[])" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PriceListTest.shouldReturnEqualsWhenMagnumTypeMatchParameterType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IceCreamShop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="be.intecbrussel.seller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="be.intecbrussel.seller" />
-      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.seller.PriceListTest" />
-      <option name="METHOD_NAME" value="shouldReturnEqualsWhenMagnumTypeMatchParameterType(be.intecbrussel.eatables.Magnum$MagnumType,double)" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="be.intecbrussel.seller.StockTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PriceListTest.shouldReturnEqualsWhenMagnumTypeMatchParameterType (3)" />
-        <item itemvalue="JUnit.PriceListTest.shouldReturnEqualsWhenMagnumTypeMatchParameterType (2)" />
-        <item itemvalue="JUnit.PriceListTest.shouldReturnEqualsWhenMagnumTypeMatchParameterType (1)" />
-        <item itemvalue="JUnit.PriceListTest.shouldReturnEqualsWhenMagnumTypeMatchParameterType" />
-        <item itemvalue="JUnit.ConeTest.shouldReturnEqualWhenEquals" />
+        <item itemvalue="JUnit.StockTest" />
+        <item itemvalue="JUnit.PriceListTest" />
+        <item itemvalue="JUnit.IceCreamSalonTest" />
+        <item itemvalue="JUnit.IceCreamCarTest" />
+        <item itemvalue="JUnit.MagnumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +207,28 @@
       <option name="project" value="LOCAL" />
       <updated>1684247760485</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="16/05  - Tests added - Maven">
+      <created>1684323364378</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684323364378</updated>
+    </task>
+    <task id="LOCAL-00008" summary="16/05  - Tests added - Maven">
+      <created>1684323379425</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684323379425</updated>
+    </task>
+    <task id="LOCAL-00009" summary="16/05  - Tests added - Maven">
+      <created>1684323428113</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684323428113</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -265,6 +284,9 @@
       <FILTER>be.intecbrussel.seller.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/IceCreamShop$MagnumTest.ic" NAME="MagnumTest Coverage Results" MODIFIED="1684317636740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>be.intecbrussel.eatables.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/IceCreamShop$MagnumTest_shouldReturnEqualWhenToString.ic" NAME="MagnumTest.shouldReturnEqualWhenToString Coverage Results" MODIFIED="1684324787489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>be.intecbrussel.eatables.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/IceCreamShop$IceCreamCarTest_shouldReturnTrueWhenConeFlavoursIsNotNull.ic" NAME="IceCreamCarTest.shouldReturnTrueWhenConeFlavoursIsNotNull Coverage Results" MODIFIED="1684226422669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

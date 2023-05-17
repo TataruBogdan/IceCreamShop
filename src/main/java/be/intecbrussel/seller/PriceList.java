@@ -56,4 +56,13 @@ public class PriceList {
     public void setMagnumStandardPrice(double magnumStandardPrice) {
         this.magnumStandardPrice = magnumStandardPrice;
     }
+
+    @Override
+    public String toString() {
+        return "PriceList{" +
+                "ballPrice=" + ballPrice +
+                ", rocketPrice=" + rocketPrice +
+                ", magnumStandardPrice=" + magnumStandardPrice +
+                '}';
+    }
 }

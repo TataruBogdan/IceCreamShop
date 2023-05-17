@@ -116,4 +116,13 @@ public class IceCreamCar implements IceCreamSeller {
     public double getProfit() {
         return profit;
     }
+
+    @Override
+    public String toString() {
+        return "IceCreamCar{" +
+                "priceList=" + priceList +
+                ", stock=" + stock +
+                ", profit=" + profit +
+                '}';
+    }
 }

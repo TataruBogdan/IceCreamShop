@@ -184,4 +184,20 @@ class IceCreamCarTest {
         return Stream.of(Arguments.arguments(List.of(Cone.Flavor.BANANA, Cone.Flavor.LEMON)));
     }
 
+    @Test
+    void shouldReturnEqualWhenToString(){
+
+        //given
+        IceCreamCar newIceCream = new IceCreamCar(new PriceList(1,2,3),
+                                                  new Stock());
+
+
+        //when
+        String string = newIceCream.toString();
+        //then
+        assertEquals("IceCreamCar{priceList=PriceList{ballPrice=1.0, rocketPrice=2.0, magnumStandardPrice=3.0}, " +
+                             "stock=Stock{iceRockets=0, cones=0, balls=0, magni=0}, profit=0.0}",
+                     string);
+    }
+
 }

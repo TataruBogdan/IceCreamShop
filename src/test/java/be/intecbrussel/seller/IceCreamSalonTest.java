@@ -105,4 +105,19 @@ class IceCreamSalonTest {
         //then
         assertEquals(0.4, iceCreamSalonProfit.getProfit());
     }
+
+    @Test
+    void shouldReturnEqualWhenToString(){
+
+        //given
+
+        //when
+        String string = iceCreamSalon.toString();
+        //then
+        assertEquals("IceCreamSalon{priceList=PriceList{ballPrice=0.0, " +
+                             "rocketPrice=0.0, magnumStandardPrice=0.0}, totalProfit=0.0}",
+                     string);
+    }
+
+
 }
